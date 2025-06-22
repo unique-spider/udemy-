@@ -1,0 +1,289 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Gabarito", sans-serif;
+
+        }
+
+        /* Navbar */
+     .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: solid black 1px;
+            
+        }
+        /* Navbar section-1 */
+        .navbar-section-1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            padding: 6px;
+        }
+
+        .navbar-section-1__logo {
+
+            color: #692ccf;
+             padding: 10px 10px;
+  
+            border: 2px solid transparent; /* Reserve space for hover border */
+  
+            font-weight: 500; /* Keep font-weight consistent */
+
+  
+            background-color: transparent;
+  
+  
+            border-radius: 5px;
+  
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .navbar-section-1__explore{
+            padding: 10px;
+  
+            color: black;
+
+  
+            
+  
+  
+            border-radius: 5px;
+  
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .navbar-section-1__explore:hover{
+            background-color: #EDE5F9;
+        }
+        
+
+        /* Navbar section-2 */
+        .navbar-section-2 {
+            border: solid BLACK 1px;
+            width: 32%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+            height: 20px;
+            padding: 12px;
+            gap: 10px;
+        }
+
+        .navbar-section-2 input {
+            border: none;
+            width: 100%;
+            height: 20px;
+
+
+        }
+
+        .navbar-section-2 input:focus {
+            outline: none;
+            height: 100%;
+        }
+
+        .navbar-section-3 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+            margin-left: 10px;
+        }
+
+        /* Navbar section-3 */
+        .navbar-section-3__category-1,.navbar-section-3__category-2,.navbar-section-3__category-3 {
+            padding: 10px;
+  
+            border: 2px solid transparent; /* Reserve space for hover border */
+  
+            font-weight: 500; /* Keep font-weight consistent */
+  
+            color: black;
+  
+  
+            border-radius: 5px;
+  
+            
+        }
+
+        .navbar-section-3__login {
+            border: solid #692ccf 1px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #692ccf;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .navbar-section-3__login:hover {
+            background-color: #EDE5F9;
+        }
+
+        .navbar-section-3__signup:hover {
+            background-color: #892DE1;
+        }
+
+        
+
+        .navbar-section-3__signup {
+            color: white;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #692ccf;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .navbar-section-3__cart {
+            border: solid #692ccf 1px;
+            padding: 9px;
+            border-radius: 4px;
+            
+        }
+        .navbar-section-3__globe {
+            border: solid #692ccf 1px;
+            padding: 9px;
+            
+            border-radius: 4px;
+            
+        }
+
+        .navbar-section-3__user {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .navbar-section-3__category-1:hover{
+            
+            background-color: #EDE5F9;
+
+        }
+        .navbar-section-3__category-2:hover{
+            background-color: #EDE5F9;
+
+        }
+        .navbar-section-3__category-3:hover{
+            background-color: #EDE5F9;
+
+            
+        }
+        .navbar-section-3__globe:hover{
+            
+  
+            background-color: #EDE5F9;
+
+  
+            
+  
+            border-radius: 5px;
+  
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+/* Categories */
+.categories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+    border-bottom:solid black 1px;
+
+    
+}
+.categories p{
+    color:white;
+    background-color:#692ccf;
+    padding: 10px;
+    border-radius: 4px;
+}
+.categories p:hover{
+    background-color:#892DE1;
+}
+
+/* Sale image */
+.sale-image {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.sale-image img{
+    width: 100%;
+}
+/* Recommended */
+.recommended{
+    padding: 10px;
+
+}
+.recommended__container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.course-card{
+    width: 320px;
+    margin-top: 10px;
+
+}
+.course-card img{
+    width: 100%;
+    height: 200px;}
+
+    
+/* Topics */
+.topics{
+    padding: 10px;
+    margin: 10px;
+}
+.topics__container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    justify-content: space-between;
+   flex-basis: 25%;
+}
+
+/* footer */
+.footer-one{
+    display: flex;
+    
+    margin: 10px;
+    color: white;
+    background-color: black;
+    gap: 20px;   
+}
+
+.footer-section-1 p{
+    margin: 20px;
+    
+}
+
+.footer-section-2 p{
+    margin: 20px;
+    
+}
+.footer-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+}
