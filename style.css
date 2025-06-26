@@ -271,7 +271,7 @@
     z-index: 1;
     width: 35%;
     height: 15%;
-    padding: 50px;
+    padding: 30px;
     top: 10%;
     left: 10%;
     border-radius: 4px;
@@ -365,6 +365,9 @@
 footer{
     background-color: black;
 }
+.Topics-1{
+    display: none;
+}
 @media screen and (max-width:1490px) {
 
     body{
@@ -409,6 +412,15 @@ footer{
         flex-basis: 40%;
         margin: 5px;
     }
+    .sale-image__offer{
+        width: fit-content;
+        font-size: smaller;
+        height: fit-content;
+        padding: 10px;
 
+    }
+    .Topics-1{
+        display: block;
+    }
     
 }
